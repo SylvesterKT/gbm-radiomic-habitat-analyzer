@@ -1,0 +1,41 @@
+# GBM Radiomic Habitat Analyzer - Dependencies
+# Install: pip install -r requirements.txt
+
+# Core scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Medical imaging
+SimpleITK>=2.3.0
+nibabel>=5.1.0
+pyradiomics>=3.1.0
+
+# Machine learning
+scikit-learn>=1.3.0
+
+# Survival analysis
+lifelines>=0.27.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Web dashboard (optional)
+streamlit>=1.25.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+joblib>=1.3.0
+python-dotenv>=1.0.0
+
+# Development
+jupyter>=1.0.0
+ipykernel>=6.25.0
+black>=23.0.0
+pylint>=2.17.0
+pytest>=7.4.0
